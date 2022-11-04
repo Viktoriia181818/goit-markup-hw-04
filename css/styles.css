@@ -50,6 +50,12 @@ body {
         display: flex;
         }
 
+        
+
+        
+
+        
+
  .logo-link:hover,
  .logo-link:focus,
  .logo-header:hover,
@@ -179,7 +185,7 @@ body {
           
     /* Hero */
     .hero {
-            background-color: #2F303A;
+            background-image: url(../images/border.img.jpg);
             padding: 200px 0;
             display: block;
                 height: 600px;
@@ -207,6 +213,14 @@ body {
             letter-spacing: 0.03em;
             text-transform: uppercase;
         }
+             .information .pages {
+                display: inline-block;
+                background-color: green;
+                    margin-right: 234px;
+                    justify-content: center;
+                }
+
+                    
     /* Button-1 */
         .button-order {
             border-radius: 4px;
