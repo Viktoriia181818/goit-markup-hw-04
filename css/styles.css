@@ -181,7 +181,14 @@ body {
      color: var(--accent-color);
      text-decoration: none;
  }
-    
+    .mail:before {
+        content: url(/images/mail.cvg.svg);
+    }
+
+    .tel:before {
+        content: url(/images/tel.svg.svg);
+        justify-content: center;
+    }
           
     /* Hero */
     .hero {
@@ -213,13 +220,6 @@ body {
             letter-spacing: 0.03em;
             text-transform: uppercase;
         }
-             .information .pages {
-                display: inline-block;
-                background-color: green;
-                    margin-right: 234px;
-                    justify-content: center;
-                }
-
                     
     /* Button-1 */
         .button-order {
@@ -269,6 +269,20 @@ body {
                 font-size: 14px;
                 line-height: 1.7;
         }
+                 .pages {
+                     padding-top: 25px;
+                     padding-bottom: 25px;
+                     padding-left: 101px;
+                     padding-right: 101px;
+                     background: #F5F4FA;
+                     border-radius: 4px;
+                     margin-bottom: 30px;
+                     justify-content: center;
+                 }
+
+                 .text {
+                    margin-bottom: 118px;
+                 }
 
         /* Примітка */
 
@@ -325,6 +339,40 @@ body {
                 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
                 border-radius: 0px 0px 4px 4px;
                                 }
+                                /* Постійні клієнти */
+                                
+                                .clients {
+                                    display: flex;
+                                    gap: 30px;
+                                    list-style: none;
+                                    margin-left: 215px;
+                                    margin-right: 215px;
+                                    
+                                    
+                                    
+                                }
+                                .clients-title {
+                                
+                                        
+                                        width: 170px;
+                                            height: 92px;
+                                            align-items: center;
+                                            justify-content: center;
+                                }
+                                    .client-text {
+                                        margin-bottom: 50px;
+                                        color: var(--title-text-color);
+                                        font-weight: 700;
+                                            font-size: 36px;
+                                            line-height: 1.166;
+                                            text-align: center;
+                                            letter-spacing: 0.03em;
+                                            
+                                            
+                                    }
+                                 
+                                    
+                                        
         /* Footer */
                 .footer {
                     background-color: var(--background-footer-color);
