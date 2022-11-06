@@ -25,6 +25,12 @@ body {
         margin: 0;
         list-style: none;
     }
+
+         .list-tel {
+             padding: 0;
+             margin: 0;
+             list-style: none;
+         }
     
     
         /* Container */
@@ -188,7 +194,7 @@ body {
           }
     /* Hero */
     .hero {
-            background-image: url(../images/border.img.jpg);
+            background-image:linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/border.img.jpg);
             padding: 200px 0;
             display: block;
                 height: 600px;
@@ -450,99 +456,110 @@ body {
     background-color: #2196F3;
 }
                                     
-                                        
         /* Footer */
-                .footer {
-                    background-color: var(--background-footer-color);
-                    padding: 60px 0;
-                }
-
-                .footer .logo-link {
-                    display: block;
-                    margin-bottom: 20px;
-                }
-
-                .footer .logo-headers {
-                    color: #ffffff;
-                    text-decoration: none;
-                        }
-
-                                .addres-link {
-                                    color: #ffffff;
-                                    display:block;
-                                    margin-bottom: 9px;
+           
                 
-                                    font-style: normal;
-                                    text-decoration: none;
-                                    font-size: 14px;
-                                    line-height: 1.7;
-                                }
-                
-                                .addres-link:hover,
-                                .addres-link:focus {
-                                    color: var(--accent-color);
-                                    font-style: normal;
-                                }
-                
-                                .footer-list .link {
-                                    color: rgba(255, 255, 255, 0.6);
-                
-                                    text-decoration: none;
-                                    font-style: normal;
-                                    font-size: 14px;
-                                    line-height: 1.7;
-                                    padding: 0 auto;
-                                }
-                                .footer-list {
-                                    list-style: none;
-                                }
-                                .footer-list .item:not(:last-child) {
-                                    margin-bottom: 9px;
-                                }
-                
-                
-                                .footer-list .link.link:hover,
-                                .footer-list .link.link:focus {
-                                    color: var(--accent-color);
-                                    font-style: normal;
-                                }
-                                                                .socials {
-                                                                    display: flex;
-                                                                    gap: 10px;
-                                                                    justify-content: center;
-                                                                }
- .footer-social-link {
-     color: #FFFFFF;
- }
+          .footer {
+              background-color: #2F303A;
+              padding: 60px 0;
+          }
+    
+          .footer .container {
+              display: flex;
+          }
+    
+          .footer .logo {
+            font-family: 'Raleway';
+            color: var(--accent-color);
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 31px;
+            letter-spacing: 0.03em;
+              display: inline-block;
+              margin-bottom: 20px;
+          }
+    
+          .footer .logo-part {
+              color: #ffffff;
+              text-decoration: none;
+          }
+    
+          .addres-link {
+              color: #ffffff;
+              display: inline-block;
+              margin-bottom: 9px;
+    
+              font-style: normal;
+              text-decoration: none;
+              font-size: 14px;
+              line-height: 1.7;
+          }
+    
+          .addres-link:hover,
+          .addres-link:focus {
+              color: var(--accent-color);
+              font-style: normal;
+          }
 
- .social {
-     margin-left: 70px;
- }
-
- .social-title {
-     color: #FFFFFF;
-     font-weight: 700;
-     font-size: 14px;
-     line-height: 16px;
-     letter-spacing: 0.03em;
- }
-
- .footer-social-link {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     color: #FFFFFF;
-
-     width: 44px;
-     height: 44px;
-     border-radius: 50%;
-     background-color: rgba(255, 255, 255, 0.1);
- }
-
- .footer-social-link:hover,
- .footer-social-link:focus {
-     background-color: var(--accent-color);
- }
+                  .contact {
+                      display: flex;
+                      margin-left: auto;
+                  }
+    
+          .contact-footer .link {
+              color: rgba(255, 255, 255, 0.6);
+    
+              text-decoration: none;
+              font-style: normal;
+              font-size: 14px;
+              line-height: 1.7;
+          }
+    
+          .contact-footer .item:not(:last-child) {
+              margin-bottom: 9px;
+          }
+    
+    
+          .contact-footer .link.link:hover,
+          .contact-footer .link.link:focus {
+              color: var(--accent-color);
+              font-style: normal;
+          }
+    
+          .footer-social-link {
+              color: #FFFFFF;
+          }
+    
+          .social {
+              margin-left: 70px;
+          }
+    
+          .social-title {
+            margin-bottom: 20px;
+              color: #FFFFFF;
+    
+              font-weight: 700;
+              font-size: 14px;
+              line-height: 16px;
+              letter-spacing: 0.03em;
+          }
+    
+          .footer-social-link {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: #FFFFFF;
+    
+              width: 44px;
+              height: 44px;
+              border-radius: 50%;
+              background-color: rgba(255, 255, 255, 0.1);
+          }
+    
+          .footer-social-link:hover,
+          .footer-social-link:focus {
+              background-color: var(--accent-color);
+          }
  /* Portfolio */
  .button {
      border: transparent;
