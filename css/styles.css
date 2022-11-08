@@ -674,8 +674,7 @@ body {
  }
 
  .item-port {
-    margin-right: 30px;
-    margin-bottom: 30px;
+    margin: 30px;
     background: #FFFFFF;
     display: block;
  }
