@@ -590,7 +590,6 @@ body {
   .filter {
       display: flex;
       justify-content: center;
-      margin-bottom: 34px;
       gap: 8px;
   }
 
@@ -674,7 +673,7 @@ body {
  }
 
  .item-port {
-    margin: 30px;
+    gap: 30px;
     background: #FFFFFF;
     display: block;
  }
